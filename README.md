@@ -21,26 +21,24 @@ tcsh.
 - Errors and returns values.
 - Redirections ('<', '>', '<<' and '>>').
 - Pipes ('|').
-- Builtins: cd, echo, exit, setenv, unsetenv, which, where
+- Builtins: cd, echo, exit, setenv, unsetenv, which, where, history, alias, unalias, clear, repeat, set, unset
 - Separators ';', '&&', '||'.
 - Inhibitors ('\').
 - Globbing ('*', '?', '[]').
 - Backticks ('`').
 - Parentheses ('(' and ')').
 - Variables (local and env).
-- Special variables (term, precmd, cwdcmd, cwd, ignoreof for instance).
-- History (key UP and DOWN, and builtins history)
+- Special variables (term, precmd, cwdcmd, cwd, ignoreeof).
+- History (key UP and DOWN)
 - Aliases
 - Line edition (multiline, dynamic rebinding, auto-completion dynamic).
-- Repeat
 - Scripting
+
+
+![Header](github/42sh_LowerShell_AD.png)
 
 # Exemple
 
-![alt text](https://imgur.com/5MCUygj.png)
+![main exemple](github/42sh.png)
 
-![alt text](https://imgur.com/pmA4NDU.pngg)
-
-![alt text](https://imgur.com/2R0VaCR.png)
-
-![alt text](https://imgur.com/MNaEdXQ.png)
+![exemple2](github/42sh_2.png)
